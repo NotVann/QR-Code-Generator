@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="stylesheet" href="style.css"/>
+		<title>QR Code Generator</title>
+	</head>
+	<body>
+		<div class="qr-container">
+			<div class="qr-heading">QR Code Generator</div>
+			<section class="user-input">
+				<input
+					type="text"
+					name="input_text"
+					id="input_text"
+					class="qr-input"
+					placeholder="Enter text or URL"
+					autocomplete="off" />
+				<button class="qr-button" type="submit">Generate</button>
+			</section>
+			<div class="qr-code" style="display: none"></div>
+			<a id="downloadLink" class="qr-download" style="display: none" download="qrcode.png"
+				>Download QR Code</a
+			>
+		</div>
+
+		<script src="https://unpkg.com/@popperjs/core@2"></script>
+		<script src="https://unpkg.com/tippy.js@6"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
