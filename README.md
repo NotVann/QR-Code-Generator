@@ -2,7 +2,7 @@
 
 Aplikasi web sederhana untuk membuat QR Code dari teks atau URL.
 
-![Preview Aplikasi](preview.png)
+![Preview Aplikasi](preview.png)(preview_dekstop.png)
 
 ## Cara Pakai
 1. Ketik teks atau URL di kolom input  
